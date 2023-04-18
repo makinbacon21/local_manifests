@@ -12,6 +12,7 @@
     <project name="CM-Shield/android_bootable_tianocore_cmocka.git" path="bootable/tianocore/edk2/UnitTestFrameworkPkg/Library/CmockaLib/cmocka" remote="incom" revision="lineage-20.0" />
     <project name="CM-Shield/android_bootable_tianocore_jansson.git" path="bootable/tianocore/edk2/RedfishPkg/Library/JsonLib/jansson" remote="incom" revision="lineage-20.0" />
     <project name="platform/external/openssl" path="bootable/tianocore/edk2/CryptoPkg/Library/OpensslLib/openssl" remote="aosp" revision="refs/tags/upstream-OpenSSL_1_1_1n" />
+    <project name="CM-Shield/android_external_efivar.git" path="external/efivar" remote="incom" revision="lineage-20.0" />
 
     <!-- Device -->
     <project name="CM-Shield/android_device_nvidia_concord" path="device/nvidia/concord" remote="incom" />
