@@ -8,6 +8,7 @@
     <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia.git" path="bootable/tianocore/edk2-nvidia" remote="incom" revision="lineage-20.0" />
     <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia-non-osi.git" path="bootable/tianocore/edk2-nvidia-non-osi" remote="incom" revision="lineage-20.0" />
     <project name="CM-Shield/android_bootable_tianocore_edk2-platforms.git" path="bootable/tianocore/edk2-platforms" remote="incom" revision="lineage-20.0" />
+    <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia-lineage" path="bootable/tianocore/edk2-nvidia-lineage" remote="incom" revision="lineage-20.0" />
 
     <project name="CM-Shield/android_bootable_tianocore_cmocka.git" path="bootable/tianocore/edk2/UnitTestFrameworkPkg/Library/CmockaLib/cmocka" remote="incom" revision="lineage-20.0" />
     <project name="CM-Shield/android_bootable_tianocore_jansson.git" path="bootable/tianocore/edk2/RedfishPkg/Library/JsonLib/jansson" remote="incom" revision="lineage-20.0" />
@@ -20,7 +21,7 @@
     <project name="CM-Shield/android_device_nvidia_t234-common" path="device/nvidia/t234-common" remote="incom" />
 
     <!-- Kernel -->
-    <project name="CM-Shield/android_hardware_nvidia_platform_t23x_concord_kernel-dts" path="device/nvidia/concord/kernel-dts"  remote="incom"/>
+    <project name="CM-Shield/android_hardware_nvidia_platform_t23x_concord_kernel-dts" path="hardware/nvidia/platform/t23x/concord/kernel-dts"  remote="incom"/>
     <project name="CM-Shield/android_hardware_nvidia_platform_t23x_common_kernel-dts" path="hardware/nvidia/platform/t23x/common/kernel-dts" remote="incom" />
     <project name="CM-Shield/android_hardware_nvidia_soc_t23x" path="hardware/nvidia/soc/t23x" remote="incom" />
 </manifest>
