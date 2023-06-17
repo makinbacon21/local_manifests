@@ -5,4 +5,4 @@ Clone into `.repo/local_manifests` for use, supports the `snack` tool for automa
 ## Currently Supported Devices
 
 - nx (Nintendo Switch, all SKUs)
-- concord (NVIDIA Jetson AGX Orin)
+- shieldtablet (NVIDIA Shield Tablet)

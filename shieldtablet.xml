@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" />
+
+    <!-- Device -->
+    <project name="CM-Shield/android_device_nvidia_shieldtablet" path="device/nvidia/shieldtablet" remote="incom" />
+    <project name="CM-Shield/android_device_nvidia_t124-common" path="device/nvidia/t124-common" remote="incom" />
+    <project name="CM-Shield/android_device_nvidia_touch" path="device/nvidia/touch" remote="incom" />
+    <project name="CM-Shield/android_device_nvidia_icera" path="device/nvidia/icera" remote="incom" />
+</manifest>
