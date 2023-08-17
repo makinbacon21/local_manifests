@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- TODO: reorganize -->
+  <remote name="gl-ssh" fetch="ssh://git@gitlab.com:22/" revision="lineage-18.1"/>
+
+  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gl-ssh" revision="rho" />
+  <project name="MindTheGapps/vendor_gapps_tv" path="vendor/gapps_tv" remote="gl-ssh" revision="rho" />
+  <project name="Luk1337/ih8sn" path="external/ih8sn" remote="private" revision="master" />
+  <project name="android/android_vendor_switchroot" path="vendor/switchroot" remote="switchroot"/>
+</manifest>
