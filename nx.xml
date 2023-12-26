@@ -2,26 +2,26 @@
 <manifest>
 
     <!-- Device -->
-    <project name="NX-Development/android_device_nintendo_nx" path="device/nintendo/nx" revision="lineage-20" />
-    <project name="LineageOS/android_device_nvidia_t210-common" path="device/nvidia/t210-common" revision="lineage-20" />
+    <project name="NX-Development/android_device_nintendo_nx" path="device/nintendo/nx" revision="lineage-21" />
+    <project name="LineageOS/android_device_nvidia_t210-common" path="device/nvidia/t210-common" revision="lineage-21" />
 
     <!-- Kernel -->
-    <project name="LineageOS/android_kernel_nvidia_kernel-nx" path="kernel/nvidia/kernel-4.9-nx" revision="lineage-20" />
-    <project name="LineageOS/android_kernel_nvidia_nvidia-nx" path="kernel/nvidia/nvidia-nx" revision="lineage-20" />
-    <project name="LineageOS/android_hardware_nvidia_platform_t210_nx" path="hardware/nvidia/platform/t210/nx" revision="lineage-20" />
-    <project name="LineageOS/android_hardware_nvidia_platform_t210_common" path="hardware/nvidia/platform/t210/common" revision="lineage-20" />
-    <project name="LineageOS/android_hardware_nvidia_soc_t210" path="hardware/nvidia/soc/t210" revision="lineage-20" />
-    <project name="LineageOS/android_kernel_nvidia_cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" revision="lineage-20" />
+    <project name="LineageOS/android_kernel_nvidia_kernel-nx" path="kernel/nvidia/kernel-4.9-nx" revision="lineage-21" />
+    <project name="LineageOS/android_kernel_nvidia_nvidia-nx" path="kernel/nvidia/nvidia-nx" revision="lineage-21" />
+    <project name="LineageOS/android_hardware_nvidia_platform_t210_nx" path="hardware/nvidia/platform/t210/nx" revision="lineage-21" />
+    <project name="LineageOS/android_hardware_nvidia_platform_t210_common" path="hardware/nvidia/platform/t210/common" revision="lineage-21" />
+    <project name="LineageOS/android_hardware_nvidia_soc_t210" path="hardware/nvidia/soc/t210" revision="lineage-21" />
+    <project name="LineageOS/android_kernel_nvidia_cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" revision="lineage-21" />
 
     <!-- External repos -->
-    <project name="LineageOS/android_external_libevdev" path="external/libevdev" revision="lineage-20.0" />
-    <project name="LineageOS/android_hardware_nintendo_joycond" path="hardware/nintendo/joycond" revision="lineage-20" />
-    <project name="LineageOS/android_hardware_nintendo_arm-trusted-firmware" path="hardware/nintendo/arm-trusted-firmware" revision="lineage-20" />
-    <project name="LineageOS/android_hardware_nintendo_u-boot" path="hardware/nintendo/u-boot" revision="lineage-20" />
-    <project name="LineageOS/android_hardware_intel_sensors-iio" path="hardware/intel/sensors-iio" revision="lineage-20" />
+    <project name="LineageOS/android_external_libevdev" path="external/libevdev" revision="lineage-21.0" />
+    <project name="LineageOS/android_hardware_nintendo_joycond" path="hardware/nintendo/joycond" revision="lineage-21" />
+    <project name="LineageOS/android_hardware_nintendo_arm-trusted-firmware" path="hardware/nintendo/arm-trusted-firmware" revision="lineage-21" />
+    <project name="LineageOS/android_hardware_nintendo_u-boot" path="hardware/nintendo/u-boot" revision="lineage-21" />
+    <project name="LineageOS/android_hardware_intel_sensors-iio" path="hardware/intel/sensors-iio" revision="lineage-21" />
 
     <!-- Vendor repos -->
     <project name="NX-Development/proprietary_vendor_nintendo" path="vendor/nintendo" revision="lineage-18.1" />
-    <project name="TheMuppets/proprietary_vendor_nvidia_foster" path="vendor/nvidia/foster" revision="lineage-20" />
-    <project name="TheMuppets/proprietary_vendor_nvidia_t210" path="vendor/nvidia/t210" revision="lineage-20" />
+    <project name="TheMuppets/proprietary_vendor_nvidia_foster" path="vendor/nvidia/foster" revision="lineage-21" />
+    <project name="TheMuppets/proprietary_vendor_nvidia_t210" path="vendor/nvidia/t210" revision="lineage-21" />
 </manifest>

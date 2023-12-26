@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-20" />
+    <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-21" />
     
     <!-- Bootloader -->
-    <project name="CM-Shield/android_bootable_tianocore_edk2.git" path="bootable/tianocore/edk2" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_bootable_tianocore_edk2-non-osi.git" path="bootable/tianocore/edk2-non-osi" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia.git" path="bootable/tianocore/edk2-nvidia" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia-non-osi.git" path="bootable/tianocore/edk2-nvidia-non-osi" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_bootable_tianocore_edk2-platforms.git" path="bootable/tianocore/edk2-platforms" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia-lineage" path="bootable/tianocore/edk2-nvidia-lineage" remote="incom" revision="lineage-20.0" />
+    <project name="CM-Shield/android_bootable_tianocore_edk2.git" path="bootable/tianocore/edk2" remote="incom" revision="lineage-21.0" />
+    <project name="CM-Shield/android_bootable_tianocore_edk2-non-osi.git" path="bootable/tianocore/edk2-non-osi" remote="incom" revision="lineage-21.0" />
+    <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia.git" path="bootable/tianocore/edk2-nvidia" remote="incom" revision="lineage-21.0" />
+    <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia-non-osi.git" path="bootable/tianocore/edk2-nvidia-non-osi" remote="incom" revision="lineage-21.0" />
+    <project name="CM-Shield/android_bootable_tianocore_edk2-platforms.git" path="bootable/tianocore/edk2-platforms" remote="incom" revision="lineage-21.0" />
+    <project name="CM-Shield/android_bootable_tianocore_edk2-nvidia-lineage" path="bootable/tianocore/edk2-nvidia-lineage" remote="incom" revision="lineage-21.0" />
 
-    <project name="CM-Shield/android_bootable_tianocore_cmocka.git" path="bootable/tianocore/edk2/UnitTestFrameworkPkg/Library/CmockaLib/cmocka" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_bootable_tianocore_jansson.git" path="bootable/tianocore/edk2/RedfishPkg/Library/JsonLib/jansson" remote="incom" revision="lineage-20.0" />
+    <project name="CM-Shield/android_bootable_tianocore_cmocka.git" path="bootable/tianocore/edk2/UnitTestFrameworkPkg/Library/CmockaLib/cmocka" remote="incom" revision="lineage-21.0" />
+    <project name="CM-Shield/android_bootable_tianocore_jansson.git" path="bootable/tianocore/edk2/RedfishPkg/Library/JsonLib/jansson" remote="incom" revision="lineage-21.0" />
     <project name="platform/external/openssl" path="bootable/tianocore/edk2/CryptoPkg/Library/OpensslLib/openssl" remote="aosp" revision="refs/tags/upstream-OpenSSL_1_1_1n" />
-    <project name="CM-Shield/android_external_efivar.git" path="external/efivar" remote="incom" revision="lineage-20.0" />
+    <project name="CM-Shield/android_external_efivar.git" path="external/efivar" remote="incom" revision="lineage-21.0" />
 
     <!-- Device -->
     <project name="CM-Shield/android_device_nvidia_concord" path="device/nvidia/concord" remote="incom" />
@@ -25,6 +25,6 @@
     <project name="CM-Shield/android_hardware_nvidia_platform_t23x_common_kernel-dts" path="hardware/nvidia/platform/t23x/common/kernel-dts" remote="incom" />
     <project name="CM-Shield/android_hardware_nvidia_soc_t23x" path="hardware/nvidia/soc/t23x" remote="incom" />
 
-    <project name="TheMuppets/proprietary_vendor_nvidia_concord" path="vendor/nvidia/concord" revision="lineage-20" />
-    <project name="TheMuppets/proprietary_vendor_nvidia_t234" path="vendor/nvidia/t234" revision="lineage-20" />
+    <project name="TheMuppets/proprietary_vendor_nvidia_concord" path="vendor/nvidia/concord" revision="lineage-21" />
+    <project name="TheMuppets/proprietary_vendor_nvidia_t234" path="vendor/nvidia/t234" revision="lineage-21" />
 </manifest>
