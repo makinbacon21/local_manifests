@@ -3,39 +3,37 @@
     <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-20" />
 
     <!-- Device -->
-    <project name="CM-Shield/android_device_nvidia_sepolicy" path="device/nvidia/sepolicy" remote="incom" />
-    <project name="CM-Shield/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" remote="incom" />
-    <project name="CM-Shield/android_device_nvidia_shield-common" path="device/nvidia/shield-common" remote="incom" />
+    <project name="LineageOS/android_device_nvidia_sepolicy" path="device/nvidia/sepolicy" revision="lineage-20" />
+    <project name="LineageOS/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" revision="lineage-20" />
+    <project name="LineageOS/android_device_nvidia_shield-common" path="device/nvidia/shield-common" revision="lineage-20" />
 
     <!-- External -->
-    <project name="CM-Shield/android_external_tinyhal.git" path="external/tinyhal" remote="incom" revision="lineage-20.0" />
+    <project name="LineageOS/android_external_tinyhal.git" path="external/tinyhal" revision="lineage-20.0" />
 
     <!-- Kernel -->
-    <project name="CM-Shield/android_kernel_nvidia_nvgpu" path="kernel/nvidia/nvgpu" remote="incom" />
-    <project name="CM-Shield/android_hardware_nvidia_platform_tegra_common" path="hardware/nvidia/platform/tegra/common" remote="incom" />
-    <project name="CM-Shield/android_hardware_nvidia_soc_tegra" path="hardware/nvidia/soc/tegra" remote="incom" />
-    <!-- TODO: Clean and merge nx changes for kernel-4.9 -->
-    <project name="CM-Shield/android_kernel_nvidia_kernel" path="kernel/nvidia/kernel-4.9" remote="incom" revision="lineage-20_4.9-icosa" />
-    <project name="CM-Shield/android_kernel_nvidia_kernel" path="kernel/nvidia/kernel-5.10" remote="incom" revision="lineage-20_5.10" />
-    <!-- TODO: Clean and merge nx changes for kernel-nvidia -->
-    <project name="CM-Shield/android_kernel_nvidia_nvidia" path="kernel/nvidia/nvidia" remote="incom" revision="lineage-20" />
-    <project name="CM-Shield/android_kernel_nvidia_nvethernetrm" path="kernel/nvidia/nvidia/drivers/net/ethernet/nvidia/nvethernet/nvethernetrm" remote="incom" />
+    <project name="LineageOS/android_kernel_nvidia_nvgpu" path="kernel/nvidia/nvgpu" revision="lineage-20" />
+    <project name="LineageOS/android_hardware_nvidia_platform_tegra_common" path="hardware/nvidia/platform/tegra/common" revision="lineage-20" />
+    <project name="LineageOS/android_hardware_nvidia_soc_tegra" path="hardware/nvidia/soc/tegra" revision="lineage-20" />
+    <project name="LineageOS/android_kernel_nvidia_kernel" path="kernel/nvidia/kernel-4.9" revision="lineage-20_4.9" />
+    <project name="LineageOS/android_kernel_nvidia_kernel" path="kernel/nvidia/kernel-5.10" revision="lineage-20_5.10" />
+    <project name="LineageOS/android_kernel_nvidia_nvidia" path="kernel/nvidia/nvidia" revision="lineage-20" />
+    <project name="LineageOS/android_kernel_nvidia_nvethernetrm" path="kernel/nvidia/nvidia/drivers/net/ethernet/nvidia/nvethernet/nvethernetrm" revision="lineage-20" />
     <project name="CM-Shield/android_kernel_nvidia_linux-firmware.git" path="kernel/nvidia/linux-firmware" remote="incom" />
-    <project name="CM-Shield/android_kernel_nvidia_cypress-fmac" path="kernel/nvidia/cypress-fmac" remote="incom" />
-    <project name="CM-Shield/android_kernel_nvidia_wireguard.git" path="kernel/nvidia/wireguard" remote="incom" revision="master" />
+    <project name="LineageOS/android_kernel_nvidia_cypress-fmac" path="kernel/nvidia/cypress-fmac" revision="lineage-20" />
+    <project name="LineageOS/android_kernel_nvidia_wireguard.git" path="kernel/nvidia/wireguard" revision="lineage-20" />
 
     <!-- Toolchain -->
-    <project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-9.3" remote="incom" revision="lineage-20.0" />
+    <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-9.3" revision="lineage-20.0" />
     
     <!-- Hardware -->
-    <project name="CM-Shield/android_hardware_dolby_interfaces.git" path="hardware/dolby/interfaces" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_hardware_nvidia_boot_control" path="hardware/nvidia/boot_control" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_hardware_nvidia_interfaces" path="hardware/nvidia/interfaces" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_hardware_nvidia_light" path="hardware/nvidia/light" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_hardware_nvidia_power" path="hardware/nvidia/power" remote="incom" revision="lineage-20.0" />
-    <project name="CM-Shield/android_hardware_nvidia_thermal" path="hardware/nvidia/thermal" remote="incom" revision="lineage-20.0" />
+    <project name="LineageOS/android_hardware_nvidia_boot_control" path="hardware/nvidia/boot_control" revision="lineage-20.0" />
+    <project name="LineageOS/android_hardware_nvidia_interfaces" path="hardware/nvidia/interfaces" revision="lineage-20.0" />
+    <project name="LineageOS/android_hardware_nvidia_light" path="hardware/nvidia/light" revision="lineage-20.0" />
+    <project name="LineageOS/android_hardware_nvidia_power" path="hardware/nvidia/power" revision="lineage-20.0" />
+    <project name="LineageOS/android_hardware_nvidia_thermal" path="hardware/nvidia/thermal" revision="lineage-20.0" />
 
     <!-- Vendor -->
-    <project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="incom" />
+    <project name="TheMuppets/proprietary_vendor_nvidia_common" path="vendor/nvidia/common" revision="lineage-20" />
+    <project name="TheMuppets/proprietary_vendor_nvidia_shield" path="vendor/nvidia/shield" revision="lineage-20" />
 </manifest>
 
